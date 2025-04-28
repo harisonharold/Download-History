@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212;
+}
+
+header h1 {
+  color: #F1F1F1;
+  font-family: sans-serif;
+}
+
+a {
+  color: #4d65ba;
+}
+
+button {
+  background: hsla(0, 0%, 100%, 0);
+  color: #4d65ba;
+  padding: 10px;
+  padding-inline: 15px;
+  border-radius: 50px;
+  border-color: #4d65ba;
+  border: 1px solid;
+  font-weight: bold;
+}
+
