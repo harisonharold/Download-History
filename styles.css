@@ -4,6 +4,12 @@
 
 body {
   background: #121212;
+  height: 100vh;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
@@ -11,18 +17,39 @@ header h1 {
   font-family: sans-serif;
 }
 
+section div {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 20px;
+  background: hsla(5, 10%, 80%, 0.2);
+}
+
 a {
   color: #4d65ba;
+}
+
+.bar {
+display: flex;
+align-items: center;
+}
+.s1 {
+  display: flex;
+}
+
+.s1 img {
+  margin: 20px;
 }
 
 button {
   background: hsla(0, 0%, 100%, 0);
   color: #4d65ba;
-  padding: 10px;
-  padding-inline: 15px;
-  border-radius: 50px;
+  border-radius: 3rem;
   border-color: #4d65ba;
   border: 1px solid;
   font-weight: bold;
+  max-height: fit-content;
+  padding: 20px;
 }
 
